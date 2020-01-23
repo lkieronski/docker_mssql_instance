@@ -1,0 +1,13 @@
+version: "3"
+services:
+        mssql-db:
+                build: .
+                container_name: mssqldb
+                ports:
+                        - "1433:1433"
+                environment:
+                        ACCEPT_EULA: y
+                        SA_PASSWORD: P@ssw0rd 
+                        MSSQL_PID: Express
+                volumes:
+                        - ./db:/mssqldb
