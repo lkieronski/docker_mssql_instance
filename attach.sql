@@ -1,1 +1,1 @@
-CREATE DATABASE Bestia ON PRIMARY (FILENAME=N'/mssqldb/Bestia.mdf') LOG ON (FILENAME=N'/mssqldb/Bestia_log.ldf') FOR ATTACH;
+CREATE DATABASE db ON PRIMARY (FILENAME=N'/mssqldb/db.mdf') LOG ON (FILENAME=N'/mssqldb/db_log.ldf') FOR ATTACH;
