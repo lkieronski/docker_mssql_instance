@@ -4,7 +4,9 @@ docker mssql instance with attach database
 default sa password is P@ssw0rd
 if you whant to change it go to docker-compose.yaml environmentals
 
-copy you db.mdf and db_log.lfd to ./db folder
+copy you db.mdf and db_log.lfd to ./db folder,
+
+make sure to keep database name as above or you will need to edit attach.sql before building image
 
 run command: docker-compose up -d 
 
