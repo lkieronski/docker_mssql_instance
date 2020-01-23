@@ -6,7 +6,7 @@ if you whant to change it go to docker-compose.yaml environmentals
 
 copy you db.mdf and db_log.lfd to ./db folder
 
-run docker-compose up -d command
+run command: docker-compose up -d 
 
 after container is started make attach_db.sh executable and run commad: bash attach_db.sh
 
