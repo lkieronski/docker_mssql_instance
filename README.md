@@ -10,7 +10,7 @@ run command: docker-compose up -d
 
 after container is started make attach_db.sh executable and run commad: bash attach_db.sh
 
-if you changed password in docker-compose run script with argument: bash attach_db.sh <new_password>
+if you changed password in docker-compose, run script with argument: bash attach_db.sh <new_password>
 
 you need to run the script only once when the container is created
 
