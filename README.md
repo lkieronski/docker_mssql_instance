@@ -11,7 +11,9 @@ run command: docker-compose up -d
 after container is started make attach_db.sh executable and run commad: bash attach_db.sh -d <attached_db_name> -p <password>
 
 use:
+
  -d - to specify attached db name | default: "default"
+ 
  -p - to specify new password, make sure its the same as in docker-compose.yaml | default: "P@ssw0rd"
 
 you need to run the script only once when the container is created and running
