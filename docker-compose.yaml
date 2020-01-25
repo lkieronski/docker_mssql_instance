@@ -9,6 +9,7 @@ services:
                         ACCEPT_EULA: y
                         SA_PASSWORD: P@ssw0rd 
                         MSSQL_PID: Express
+                        MSSQL_COLLATION: Polish_CI_AS
                 volumes:
                         - ./db:/mssqldb
         adminer:
