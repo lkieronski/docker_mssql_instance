@@ -20,3 +20,5 @@ you need to run the script only once when the container is created and running
 
 
 all is set now :)
+
+You can access your db with adminer at port 8080.
